@@ -14,7 +14,8 @@ export default function Home(){
             <div className="relative w-full">
                 <div className="flex">
                     <div className="text-center">
-                        <h1 className="text-[rgba(255,189,0,0.8)] text-[2.8rem] font-extrabold leading-11 tracking-tighter">Experience The Taste You Deserve</h1>
+                        <h1 className="text-[rgba(255,189,0,0.8)] text-[2.8rem] font-extrabold 
+                            leading-11 tracking-tighter">Experience The Taste You Deserve</h1>
                     </div>
                 </div>
             <div className="absolute w-full h-[150px] top-[0px]">
@@ -26,15 +27,16 @@ export default function Home(){
         </div>
 
         <div className="flex flex-col mt-[2em] px-[1em]">
-            <h1 className="text-[0.8rem]">Discover the Curated Fresh Dishes Crafted By Experts Chefs
+            <h1 className="text-[0.8rem] text-white">Discover the Curated Fresh Dishes Crafted By Experts Chefs
                 For Unforgettable Dining Experiences
             </h1>
 
-            <Button />
+            <Button className="font-sakurata bg-[rgba(255,236,89,0.8)] text-black" children="Explore Menu"/>
         </div>
 
-        <div className="relative w-full">
-            <Image src={"/assets/images/bowl-v2.png"} width={1000} height={1000} alt="tonkatsu" className="w-full mt-[1em]"/>
+        <div className="relative w-full mt-[2em]">
+            <div className="absolute rounded-full w-full h-[320px] bg-gradient-to-r from-yellow-900 to-orange-800 blur-3xl" />
+            <Image src={"/assets/images/bowl-v2.png"} width={1000} height={1000} alt="tonkatsu" className="absolute w-full"/>
         </div>
     </div>
 }
