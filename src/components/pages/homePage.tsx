@@ -26,15 +26,16 @@ export default function Home(){
         </div>
 
         <div className="flex flex-col mt-[2em] px-[1em]">
-            <h1 className="text-[0.8rem]">Discover the Curated Fresh Dishes Crafted By Experts Chefs
+            <h1 className="text-[0.8rem] text-white">Discover the Curated Fresh Dishes Crafted By Experts Chefs
                 For Unforgettable Dining Experiences
             </h1>
 
             <Button />
         </div>
 
-        <div className="relative w-full">
-            <Image src={"/assets/images/bowl-v2.png"} width={1000} height={1000} alt="tonkatsu" className="w-full mt-[1em]"/>
+        <div className="relative w-full mt-[2em]">
+            <div className="absolute rounded-full w-full h-[320px] bg-gradient-to-r from-yellow-900 to-orange-800 blur-3xl" />
+            <Image src={"/assets/images/bowl-v2.png"} width={1000} height={1000} alt="tonkatsu" className="absolute w-full z-10 blur-none"/>
         </div>
     </div>
 }

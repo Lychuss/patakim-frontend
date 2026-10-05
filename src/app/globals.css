@@ -15,15 +15,8 @@
   --font-sakurata: var(--font-sakurata-face), sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: black;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
+  background: black;
   color: var(--foreground);
   font-family: var(--font-google-sans);
 }

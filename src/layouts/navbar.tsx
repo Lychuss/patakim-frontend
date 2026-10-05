@@ -25,7 +25,7 @@ export default function Navbar() {
 
   return (
     <div className="fixed top-0 left-0 z-50 w-full xl:p-8">
-    <nav className="navbar w-full flex justify-between items-center md:px-5 z-100">
+    <nav className="navbar w-full flex justify-between items-center md:px-5 z-100 text-white">
 
       <div className="flex items-center py-[1em] px-[1em]">
           <h1 className="font-sakurata text-[1rem] xl:text-[1rem]" >
