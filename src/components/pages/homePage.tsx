@@ -14,7 +14,8 @@ export default function Home(){
             <div className="relative w-full">
                 <div className="flex">
                     <div className="text-center">
-                        <h1 className="text-[rgba(255,189,0,0.8)] text-[2.8rem] font-extrabold leading-11 tracking-tighter">Experience The Taste You Deserve</h1>
+                        <h1 className="text-[rgba(255,189,0,0.8)] text-[2.8rem] font-extrabold 
+                            leading-11 tracking-tighter">Experience The Taste You Deserve</h1>
                     </div>
                 </div>
             <div className="absolute w-full h-[150px] top-[0px]">
@@ -30,12 +31,12 @@ export default function Home(){
                 For Unforgettable Dining Experiences
             </h1>
 
-            <Button />
+            <Button className="font-sakurata bg-[rgba(255,236,89,0.8)] text-black" children="Explore Menu"/>
         </div>
 
         <div className="relative w-full mt-[2em]">
             <div className="absolute rounded-full w-full h-[320px] bg-gradient-to-r from-yellow-900 to-orange-800 blur-3xl" />
-            <Image src={"/assets/images/bowl-v2.png"} width={1000} height={1000} alt="tonkatsu" className="absolute w-full z-10 blur-none"/>
+            <Image src={"/assets/images/bowl-v2.png"} width={1000} height={1000} alt="tonkatsu" className="absolute w-full"/>
         </div>
     </div>
 }
